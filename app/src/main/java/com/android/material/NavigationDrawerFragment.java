@@ -100,6 +100,11 @@ public class NavigationDrawerFragment extends Fragment {
         adapter = new VivzAdapter(getActivity(), getData());
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+
+        // yoyoyoy
+
+        /*  Removing the onClickListener because i want to implement my own in the adapter
+
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), recyclerView,new ClickListener() {
             @Override
             public void onClick(View view, int position) {
@@ -111,6 +116,7 @@ public class NavigationDrawerFragment extends Fragment {
                 Toast.makeText(getActivity() ,"onLongClick "+position,Toast.LENGTH_SHORT).show();
             }
         }));
+        */
         return layout;
     }
 
