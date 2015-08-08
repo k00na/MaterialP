@@ -102,6 +102,7 @@ public class NavigationDrawerFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         // yoyoyoy
+        // stuff in seperated branch
 
         /*  Removing the onClickListener because i want to implement my own in the adapter
 
